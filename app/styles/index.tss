@@ -1,0 +1,80 @@
+".container": {
+	backgroundColor:"gray",
+}
+
+"#loginPage":{
+	backgrounColor:"pink"
+}
+
+
+
+".txtUser":{
+	color:'#FFF',
+    top:10,
+    left:10,
+    width:300,
+    height:40,
+    hintText:"Username",
+    keyboardType:Titanium.UI.KEYBOARD_DEFAULT,
+    returnKeyType:Titanium.UI.RETURNKEY_DEFAULT,
+    borderStyle:Titanium.UI.INPUT_BORDERSTYLE_ROUNDED
+}
+
+".txtPass":{
+	color:'#FFF',
+    top:60,
+    left:10,
+    width:300,
+    height:40,
+    passwordMask:true,
+    hintText:"Password",
+    keyboardType:Titanium.UI.KEYBOARD_DEFAULT,
+    returnKeyType:Titanium.UI.RETURNKEY_DEFAULT,
+    borderStyle:Titanium.UI.INPUT_BORDERSTYLE_ROUNDED
+}
+
+".txtName":{
+	color:'#FFF',
+    top:10,
+    left:10,
+    width:300,
+    height:40,
+    hintText:"Name",
+    keyboardType:Titanium.UI.KEYBOARD_DEFAULT,
+    returnKeyType:Titanium.UI.RETURNKEY_DEFAULT,
+    borderStyle:Titanium.UI.INPUT_BORDERSTYLE_ROUNDED
+}
+
+".txtEmail":{
+	color:'#FFF',
+    top:10,
+    left:10,
+    width:300,
+    height:40,
+    hintText:"Email",
+    keyboardType:Titanium.UI.KEYBOARD_DEFAULT,
+    returnKeyType:Titanium.UI.RETURNKEY_DEFAULT,
+    borderStyle:Titanium.UI.INPUT_BORDERSTYLE_ROUNDED
+}
+
+".btnLogin":{
+	title:'Login',
+    top:110,
+    width:120,
+    left:10,
+    layout:"horizontal",
+    height:50,
+    borderRadius:1,
+    font:{fontFamily:'Arial',fontWeight:'bold',fontSize:14}
+}
+
+".btnRegister":{
+	title:'Register',
+    top:110,
+    width:120,
+    right:10,
+    layout:"horizontal",
+    height:50,
+    borderRadius:1,
+    font:{fontFamily:'Arial',fontWeight:'bold',fontSize:14}
+}

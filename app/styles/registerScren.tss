@@ -1,0 +1,100 @@
+
+".container" : {
+  backgrounColor:"black"
+}
+
+
+"#registerPage":{
+	backgrounColor:"gold"
+}
+
+".txtUser":{
+	color:'#FFF',
+    top:10,
+    left:10,
+    width:300,
+    height:40,
+    hintText:"Username",
+    keyboardType:Titanium.UI.KEYBOARD_DEFAULT,
+    returnKeyType:Titanium.UI.RETURNKEY_DEFAULT,
+    borderStyle:Titanium.UI.INPUT_BORDERSTYLE_ROUNDED
+}
+
+".txtPass1":{
+	color:'#FFF',
+    top:60,
+    left:10,
+    width:300,
+    height:40,
+    passwordMask:true,
+    hintText:"Password",
+    keyboardType:Titanium.UI.KEYBOARD_DEFAULT,
+    returnKeyType:Titanium.UI.RETURNKEY_DEFAULT,
+    borderStyle:Titanium.UI.INPUT_BORDERSTYLE_ROUNDED
+}
+
+".txtPass2":{
+	color:'#FFF',
+    top:110,
+    left:10,
+    width:300,
+    height:40,
+    passwordMask:true,
+    hintText:"Repeat Password",
+    keyboardType:Titanium.UI.KEYBOARD_DEFAULT,
+    returnKeyType:Titanium.UI.RETURNKEY_DEFAULT,
+    borderStyle:Titanium.UI.INPUT_BORDERSTYLE_ROUNDED
+}
+
+
+".txtName":{
+	color:'#FFF',
+    top:160,
+    left:10,
+    width:300,
+    height:40,
+    hintText:"Name",
+    keyboardType:Titanium.UI.KEYBOARD_DEFAULT,
+    returnKeyType:Titanium.UI.RETURNKEY_DEFAULT,
+    borderStyle:Titanium.UI.INPUT_BORDERSTYLE_ROUNDED
+}
+
+".txtEmail":{
+	color:'#FFF',
+    top:210,
+    left:10,
+    width:300,
+    height:40,
+    hintText:"Email",
+    keyboardType:Titanium.UI.KEYBOARD_DEFAULT,
+    returnKeyType:Titanium.UI.RETURNKEY_DEFAULT,
+    borderStyle:Titanium.UI.INPUT_BORDERSTYLE_ROUNDED
+}
+
+".btnLogin":{
+	title:'Login',
+    top:260,
+    width:120,
+    left:10,
+    layout:"horizontal",
+    height:50,
+    borderRadius:1,
+    font:{fontFamily:'Arial',fontWeight:'bold',fontSize:14}
+}
+
+".btnRegister":{
+	title:'Register',
+    top:310,
+    width:120,
+    right:10,
+    layout:"horizontal",
+    height:50,
+    borderRadius:1,
+    font:{fontFamily:'Arial',fontWeight:'bold',fontSize:14}
+}
+
+"#back":{
+    bottom:0,
+    left:0,
+    layout:"horizontal"
+}

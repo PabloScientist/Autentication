@@ -1,0 +1,13 @@
+<Alloy>
+	<Window>
+	<View id="registerPage">
+			<TextField id="username" class="txtUser"></TextField>
+			<TextField id="password1" class="txtPass1"></TextField>
+			<TextField id="password2" class="txtPass2"></TextField>
+			<TextField id="name" class="txtName"></TextField>
+			<TextField id="email" class="txtEmail"></TextField>
+			<Button id="postR" class="btnRegister" onClick="btnRegister"></Button>
+			<Label id="back" onClick="returnLogin">Back to Login</Label>
+	</View>
+	</Window>
+</Alloy>

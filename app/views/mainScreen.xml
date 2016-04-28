@@ -1,0 +1,10 @@
+<Alloy>
+	<Window>
+	<View class="container">
+		<Label id="text"></Label>
+		
+		
+		<Label id="back" onClick="returnLogin">Close sesion</Label>
+	</View>
+	</Window>
+</Alloy>

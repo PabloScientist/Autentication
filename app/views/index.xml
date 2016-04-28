@@ -1,0 +1,14 @@
+<Alloy>
+	<Window class="container">
+		
+	<View id="loginPage">
+			<TextField id="username" class="txtUser"></TextField>
+			<TextField id="password" class="txtPass"></TextField>
+			<Button id="postL" class="btnLogin" onClick="btnLogin"></Button>
+			<Button id="post" class="btnRegister" onClick="btnRegpage"></Button>
+	</View>
+	
+	
+	
+	</Window>
+</Alloy>
