@@ -57,7 +57,6 @@ function btnLogin() {
 	        password : password
         };
         loginReq.send(params);
-       
     }
     else
     {
